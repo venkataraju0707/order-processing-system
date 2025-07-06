@@ -1,8 +1,8 @@
 package com.order.models;
 
 public class Order {
-    private final ProductType productType;
-    private final String productName;
+    private ProductType productType;
+    private String productName;
 
     public Order(ProductType productType, String productName) {
         this.productType = productType;

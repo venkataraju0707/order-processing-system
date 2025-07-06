@@ -2,5 +2,10 @@ package com.order.models;
 
 public enum ProductType {
     MAINTENANCE_APPLICATION,
-    MAINTENANCE_CONTRACT
+    MAINTENANCE_CONTRACT,
+    PHYSICAL_PRODUCT,
+    BOOK,
+    VIDEO,
+    MEMBERSHIP_ACTIVATION,
+    MEMBERSHIP_UPGRADE
 }
